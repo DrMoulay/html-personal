@@ -225,37 +225,6 @@ nav ul li a:hover {
     transform: translateY(2px); /* Butona basıldığında küçük bir basma efekti */
 }
 
-/* Responsive Tasarım */
-@media (max-width: 768px) {
-    .about-container {
-        padding: 30px;
-    }
-    
-    .about-title {
-        font-size: 2rem;
-    }
-    
-    .about-text {
-        font-size: 1.1rem;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .services {
     padding: 40px 20px;
@@ -308,20 +277,6 @@ nav ul li a:hover {
     margin-left: 5%;
     margin-top: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -479,3 +434,208 @@ nav ul li a:hover {
 .contact-method a:hover {
     text-decoration: underline;
 }
+
+
+
+
+
+/* Responsive Tasarım */
+@media (max-width: 768px) {
+        body{
+            width: 100%;
+        }
+        /* Navbar düzenlemeleri */
+            header {
+            padding: 10px 10px;
+            height: auto;
+            position: static;
+            top: 0;
+            left: 0;
+            transform: none;
+        }
+        
+        .logo {
+            font-size: 30px;
+            margin-left: 10%;
+        }
+    
+        nav ul {
+            flex-direction: column;
+            margin-left: 0;
+        }
+        
+        nav ul li {
+            margin: 0px;
+        }
+        
+        nav ul li a {
+            font-size: 16px;
+            padding: 8px 12px;
+            display: block;
+            text-align: center;
+        }
+        
+        /* Hero bölümünde düzenlemeler */
+        .hero {
+            height: auto;
+            padding: 20px;
+        }
+    
+        .hero-content {
+            flex-direction: column-reverse;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .hero-text h1 {
+            font-size: 3rem;
+        }
+    
+        .hero-text p {
+            font-size: 1.2rem;
+            margin: 10%;
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+    
+        .ben_foto {
+            width: 300px;
+            height: 200px;
+            margin: 20px;
+            
+        
+        }
+        .hero-photo {
+    
+            height: 400px;
+            width: 300px;
+            background-color: #34495E;  /* Siyah yerine koyu gri */
+            border-radius: 50px;
+        }
+    
+        .benfoto {
+            height: 100%;
+            width: 100%;
+            border-radius: 50px;
+        }
+    
+        /* Hakkımda bölümünde düzenlemeler */
+        .about-section {
+            padding: 50px 10px;
+        }
+    
+        .about-container {
+            max-width: 100%;
+        }
+    
+        .about-title {
+            font-size: 2.5rem;
+        }
+    
+        .about-text {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+    
+        .cv-button {
+            padding: 10px 25px;
+        }
+    
+        /* Hizmetler bölümünde düzenlemeler */
+        .services {
+            padding: 30px 10px;
+        }
+    
+        .service-list {
+            flex-direction: column;
+            gap: 20px;
+        }
+    
+        .service-item {
+            width: 100%;
+            padding: 15px;
+        }
+    
+        .service-item h3 {
+            font-size: 1.8rem;
+        }
+    
+        .service-item p {
+            font-size: 1.2rem;
+            margin-top: 5%;
+        }
+    
+        /* Portföy bölümünde düzenlemeler */
+        .portfolio-section {
+            margin-top: 50px;
+            height: auto;
+        }
+    
+        .portfolio-item {
+            flex-direction: column;
+            width: 100%;
+            margin: 30px 0;
+            height: auto;
+        }
+    
+        .port-foto {
+            width: 100%;
+            height: 300px;
+            margin: 0;
+        }
+    
+        .port-text {
+            width: 90%;
+            margin: 20px 2px;
+            padding: 20px;
+        }
+    
+        .portfolio-section h1 {
+            font-size: 2.5rem;
+            margin-left: 0;
+        }
+    
+        .port-text h2 {
+            font-size: 2rem;
+            margin-left: 0;
+        }
+    
+        .port-text p {
+            font-size: 1.2rem;
+            margin-left: 0;
+            margin-top: 5%;
+        }
+    
+        /* Model 3D butonunun düzenlenmesi */
+        .model3d {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    
+        /* İletişim bölümünde düzenlemeler */
+        .contact {
+            padding: 30px 10px;
+        }
+    
+        .contact h2 {
+            font-size: 2.5rem;
+        }
+    
+        .contact p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+    
+        .contact-info {
+            flex-direction: column;
+            gap: 20px;
+        }
+    
+        .contact-method h3 {
+            font-size: 1.5rem;
+        }
+    
+        .contact-method a {
+            font-size: 1.1rem;
+        }
+    }
