@@ -311,7 +311,16 @@ nav ul li a:hover {
     height: 100%;
     border-radius: 50px;
 }
-
+.vuslat1{
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+}
+.vuslat2{
+    width: 100%;
+    height: 50%;
+    border-radius: 50px;
+}
 
 .port-text{
     height: 93%;
